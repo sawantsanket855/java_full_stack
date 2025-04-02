@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    <style>
+        h2{
+            color: green !important;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+    <div style="width: 100px;">
+    <h1>Form</h1>
+</div>
+    <fieldset >
+        <legend>
+            personal information
+        </legend>
+
+
+    <form action="">
+        <label for="name">name</label>
+        <input type="text" placeholder="name">
+        <br>
+        <br>
+        <label for="email">email</label>
+        <input type="email" value="sanket@gmail.com" disabled>
+        <br><br>
+        <label for="password">password</label>
+        <input type="password"
+        minlength="6"
+        maxlength="12"
+        >
+        <br>
+        <br>
+        <label for="address">address</label>
+        <textarea name="address" rows=10></textarea>
+        <br><br>
+        <label for="mobile number">mobile number</label>
+        <input type="tel" maxlength="10" required >
+    </fieldset>
+        <br><br>
+        <fieldset>
+<legend>
+    other information
+</legend>
+       
+        <label for="gender">gender</label>
+        <input type="radio" name="gender" >
+        <label for="male">male</label>
+        <input type="radio" name="gender" >
+        <label for="female">female</label>
+        <br><br>
+        <label for="DOB">date of birth</label>
+        <input type="date">
+        <br><br>
+        <label for="languages">languages</label>
+        <br>
+        <input type="checkbox">
+        <label for="java">marathi</label>
+        <input type="checkbox">
+        <label for="java">hindi</label>
+        <input type="checkbox">
+        <label for="java">english</label>
+        <br><br>
+        <h2 style="color: red !important;">using select</h2>
+        <br>
+        <label for="country">country</label>
+        <select name="country" id="country">
+            <option value="india">india</option>
+            <option value="pakistan">pakistan</option>
+            <option value="USA">USA</option>
+            <option value="rassia">rassia</option>
+        </select>
+        <br><br>
+        <h2>using datalist</h2>
+        <br>
+        
+        <label for="country"> country</label>
+        <input type="text" list="countries" id="country" name="country">
+        <datalist id="countries">
+            <option value="india">india</option>
+            <option value="pakistan"></option>
+            <option value="USA"></option>
+            <option value="SA"></option>
+        </datalist>
+    </fieldset>
+        <br><br>
+
+        <input type="submit" value="submit">
+        <br><br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+#parent{
+    height: 800px;
+    width: 800px;
+    position: relative;
+    margin: 100px;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+div{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#child{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.second-box{
+    right: 0px;
+}
+.third-box{
+    bottom: 0px;
+}
+.fourth-box{
+    right: 0px;
+    bottom: 0px;
+}
+.fifth-box{
+    left:350px;
+    top: 350px;
+}

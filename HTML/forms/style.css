@@ -1,0 +1,17 @@
+h2{
+    color: blue;
+}
+h1{
+    color: red;
+    background-color: aqua;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+p{
+    color: green;
+    font-size:10px;
+}
+body{
+    background:no-repeat linear-gradient(to top right,rgb(243, 122, 122),white);
+    background-color: blue;
+}

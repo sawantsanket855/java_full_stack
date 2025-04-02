@@ -1,0 +1,10 @@
+p{
+    padding-top: 30px;
+    margin: 200px;
+    width: 700px;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+span{
+    font-size:  20px;
+    font-weight: 800;
+}

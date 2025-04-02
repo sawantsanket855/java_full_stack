@@ -1,0 +1,30 @@
+body{
+    background-color:aquamarine;
+}
+
+p{
+    width: fit-content;
+}
+
+div{
+    height: 300px;
+    width: 700px;
+    border: 2px solid black;
+}
+
+#div1{
+    margin-left: 400px;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+#div2{
+    margin-left: 200px;
+    margin-top: 40px;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    width: 850px;
+    height: 250px;
+}
+
+h1{
+    margin-left: 600px;
+}
