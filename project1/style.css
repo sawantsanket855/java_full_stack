@@ -63,3 +63,11 @@
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+.button2{
+    height: 50px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+}

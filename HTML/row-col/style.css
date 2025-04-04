@@ -1,0 +1,27 @@
+
+.border1{
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+
+.div1{
+    height: 400px;
+}
+ .div2{
+    height: 33.33%;
+    width: 100%;
+    background-color: black;
+ }
+ .div3{
+    width: 33%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+ }
+
+ .row {
+   --bs-gutter-x: 0;  /* Removes horizontal space */
+   --bs-gutter-y: 0;  /* Removes vertical space */
+}
+
+
